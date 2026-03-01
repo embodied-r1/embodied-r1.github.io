@@ -140,20 +140,16 @@ body {
 }
 
 .publication-header .hero-body {
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
 }
 
 .publication-title {
-    font-family: "Myriad-Pro", "Open Sans", sans-serif;
+    font-family: "Castoro", "Noto Sans", "Google Sans", serif;
 }
 
 .publication-authors {
     font-family: "Myriad-Pro", "Open Sans", sans-serif;
-}
-
-.publication-venue {
-    color: #555;
-    width: fit-content;
-    font-weight: bold;
 }
 
 .publication-awards {
@@ -162,15 +158,12 @@ body {
     font-weight: bolder;
 }
 
-.publication-authors {
-}
-
 .publication-authors a {
     color: hsl(121, 100%, 36%) !important;
 }
 
 .conference-authors a {
-    color: hsl(0, 0%, 16%) !important;
+    color: hsl(0, 0%, 12%) !important;
 }
 
 .publication-authors a:hover {
@@ -183,6 +176,90 @@ body {
 
 .author-block {
     display: inline-block;
+}
+
+.publication-header {
+    background: #f7efe4;
+}
+
+.publication-title-block {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.title-main,
+.title-sub {
+    display: block;
+}
+
+.title-main {
+    color: #b3131b;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    line-height: 1.05;
+}
+
+.title-sub {
+    color: #b3131b;
+    font-weight: 600;
+    letter-spacing: 0.2px;
+    line-height: 1.05;
+    margin-top: 0.15rem;
+}
+
+.publication-venue {
+    display: inline-block;
+    margin-top: 0.75rem;
+    padding: 0.22rem 0.9rem;
+    border: 1.5px solid rgba(0, 0, 0, 0.18);
+    border-radius: 999px;
+    color: rgba(0, 0, 0, 0.75);
+    font-weight: 600;
+    font-size: 1.15rem;
+    background: rgba(255, 255, 255, 0.35);
+}
+
+.conference-authors {
+    margin-top: 1.15rem;
+    font-family: "Castoro", "Noto Sans", "Google Sans", serif;
+    font-size: 1.15rem;
+    line-height: 1.65;
+}
+
+.conference-authors .author-block {
+    margin: 0 0.35rem;
+    white-space: nowrap;
+}
+
+.conference-authors a {
+    text-decoration: none;
+}
+
+.conference-authors a:hover {
+    text-decoration: underline;
+}
+
+.author-mark {
+    font-weight: 700;
+}
+
+sup.author-mark {
+    font-size: 0.75em;
+    vertical-align: super;
+    margin-left: 0.05rem;
+}
+
+.publication-affiliation {
+    margin-top: 0.9rem;
+    font-family: "Castoro", "Noto Sans", "Google Sans", serif;
+    font-size: 1.15rem;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.publication-notes {
+    margin-top: 0.35rem;
+    font-size: 0.98rem;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .publication-banner img {
